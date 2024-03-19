@@ -1,0 +1,14 @@
+rank_bm25
+fugashi
+unidic-lite
+langchain_openai
+numpy
+pandas
+sentence_transformers
+FlagEmbedding
+ranx
+torch
+transformers
+datasets
+sentencepiece
+datasketch

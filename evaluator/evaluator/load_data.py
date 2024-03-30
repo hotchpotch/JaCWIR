@@ -1,6 +1,6 @@
 from datasets import load_dataset
 
-DATASET_NAME = "hotchpotch/JaQIR"
+DATASET_NAME = "hotchpotch/JaCWIR"
 
 
 def load_ds():

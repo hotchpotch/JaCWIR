@@ -1,2 +1,3 @@
-# JaQIR
-JaQIR : Japanese Web-based Query-Informed IR dataset - 情報検索評価のための日本語 Web 文章と質問文データセット
+# JaCWIR
+
+**JaCWIR** Japanese Casual Web IR - 日本語情報検索評価のための小規模でカジュアルなWebタイトルと概要のデータセット

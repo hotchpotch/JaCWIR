@@ -1,6 +1,6 @@
-# JaQIR 評価用コード
+# JaCWIR 評価用コード
 
-JaQIR の評価を行うためのサンプルコードです。
+[JaCWIR](https://huggingface.co/datasets/hotchpotch/JaCWIR) の評価を行うためのサンプルコードです。
 
 ## 評価の実行方法
 

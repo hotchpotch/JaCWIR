@@ -79,7 +79,7 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)                                                       | 0.4905 |      0.7334 |
 | [bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)                                                     | 0.7332 |      0.9314 |
 | [cross-encoder-mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/corrius/cross-encoder-mmarco-mMiniLMv2-L12-H384-v1)  | 0.9211 |       0.984 |
-| [ruri-reranker-small](https://huggingface.co/cl-nagoya/ruri-small　cl-nagoya/ruri-reranker-small) |   0.93   |        0.982  |
+| [ruri-reranker-small](https://huggingface.co/cl-nagoya/cl-nagoya/ruri-reranker-small) |   0.93   |        0.982  |
 | [ruri-reranker-base](https://huggingface.co/cl-nagoya/ruri-reranker-base)                         |   0.9388 |        0.9898 |
 | [ruri-reranker-large](https://huggingface.co/cl-nagoya/ruri-reranker-large)                       |   0.9463 |        0.99   |
 

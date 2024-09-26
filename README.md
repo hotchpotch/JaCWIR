@@ -37,7 +37,7 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 
 100件の Rerank タスクの評価は以下のとおりです。MAP@10の他に、参考までに HIT_RATE@10 も表示しています。
 
-#### 文ベクトルモデル
+#### 密な文ベクトルモデル
 
 | model_names                                                                     | map@10 | hit_rate@10 |
 | :------------------------------------------------------------------------------ | -----: | ----------: |
@@ -47,10 +47,15 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [sup-simcse-ja-base](https://huggingface.co/cl-nagoya/sup-simcse-ja-base)       | 0.5778 |      0.7976 |
 | [sup-simcse-ja-large](https://huggingface.co/cl-nagoya/sup-simcse-ja-large)     | 0.4741 |      0.7164 |
 | [GLuCoSE-base-ja](https://huggingface.co/pkshatech/GLuCoSE-base-ja)             | 0.6862 |      0.8706 |
+| [GLuCoSE-base-ja-v2](https://huggingface.co/pkshatech/GLuCoSE-base-ja-v2)   |   0.8567 |        0.9676 |
 | [fio-base-japanese-v0.1](https://huggingface.co/bclavie/fio-base-japanese-v0.1) | 0.6491 |      0.8544 |
 | [bge-m3+dense](https://huggingface.co/BAAI/bge-m3)                              | 0.8642 |      0.9684 |
 | [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)  | 0.8759 |      0.9726 |
 | [multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small)  |  0.869 |        0.97 |
+| [ruri-large](https://huggingface.co/cl-nagoya/ruri-large)                   |   0.8291 |        0.9594 |
+| [ruri-base](https://huggingface.co/cl-nagoya/ruri-base)                     |   0.837  |        0.9584 |
+| [ruri-small](https://huggingface.co/cl-nagoya/ruri-small)                   |   0.8428 |        0.9622 |
+
 
 #### ColBERT モデル
 
@@ -74,6 +79,10 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [bge-reranker-base](https://huggingface.co/BAAI/bge-reranker-base)                                                       | 0.4905 |      0.7334 |
 | [bge-reranker-large](https://huggingface.co/BAAI/bge-reranker-large)                                                     | 0.7332 |      0.9314 |
 | [cross-encoder-mmarco-mMiniLMv2-L12-H384-v1](https://huggingface.co/corrius/cross-encoder-mmarco-mMiniLMv2-L12-H384-v1)  | 0.9211 |       0.984 |
+| [ruri-reranker-small](https://huggingface.co/cl-nagoya/ruri-small　cl-nagoya/ruri-reranker-small) |   0.93   |        0.982  |
+| [ruri-reranker-base](https://huggingface.co/cl-nagoya/ruri-reranker-base)                         |   0.9388 |        0.9898 |
+| [ruri-reranker-large](https://huggingface.co/cl-nagoya/ruri-reranker-large)                       |   0.9463 |        0.99   |
+
 
 #### その他モデル
 

@@ -83,13 +83,19 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [ruri-reranker-base](https://huggingface.co/cl-nagoya/ruri-reranker-base)                         |   0.9388 |        0.9898 |
 | [ruri-reranker-large](https://huggingface.co/cl-nagoya/ruri-reranker-large)                       |   0.9463 |        0.99   |
 
+#### スパースベクトルモデル
+
+| model_names                                         | map@10 | hit_rate@10 |
+| :-------------------------------------------------- | -----: | ----------: |
+| [japanese-splade-base-v1](https://huggingface.co/hotchpotch/japanese-splade-base-v1) |   0.9122 |        0.9854 |
+| [bge-m3+sparse](https://huggingface.co/BAAI/bge-m3) | 0.8944 |      0.9778 |
+| bm25                                                | 0.8408 |      0.9528 |
+
 
 #### その他モデル
 
 | model_names                                         | map@10 | hit_rate@10 |
 | :-------------------------------------------------- | -----: | ----------: |
-| [bge-m3+all](https://huggingface.co/BAAI/bge-m3)    |  0.904 |      0.9796 |
-| [bge-m3+sparse](https://huggingface.co/BAAI/bge-m3) | 0.8944 |      0.9778 |
 | bm25                                                | 0.8408 |      0.9528 |
 
 ## ライセンス

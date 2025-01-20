@@ -55,6 +55,7 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [ruri-large](https://huggingface.co/cl-nagoya/ruri-large)                   |   0.8291 |        0.9594 |
 | [ruri-base](https://huggingface.co/cl-nagoya/ruri-base)                     |   0.837  |        0.9584 |
 | [ruri-small](https://huggingface.co/cl-nagoya/ruri-small)                   |   0.8428 |        0.9622 |
+| [static-embedding-japanese](https://huggingface.co/hotchpotch/static-embedding-japanese) |   0.7642 |    0.9266 |
 
 
 #### ColBERT モデル
@@ -91,12 +92,6 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [bge-m3+sparse](https://huggingface.co/BAAI/bge-m3) | 0.8944 |      0.9778 |
 | bm25                                                | 0.8408 |      0.9528 |
 
-
-#### その他モデル
-
-| model_names                                         | map@10 | hit_rate@10 |
-| :-------------------------------------------------- | -----: | ----------: |
-| bm25                                                | 0.8408 |      0.9528 |
 
 ## ライセンス
 

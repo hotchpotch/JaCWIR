@@ -56,6 +56,7 @@ Rerank タスクの評価指標としては、MAP@10 (Mean Average Precision at 
 | [ruri-base](https://huggingface.co/cl-nagoya/ruri-base)                     |   0.837  |        0.9584 |
 | [ruri-small](https://huggingface.co/cl-nagoya/ruri-small)                   |   0.8428 |        0.9622 |
 | [static-embedding-japanese](https://huggingface.co/hotchpotch/static-embedding-japanese) |   0.7642 |    0.9266 |
+| [embeddinggemma-300m](https://huggingface.co/google/embeddinggemma-300m)    |   0.73   |        0.904  |
 
 
 #### ColBERT モデル

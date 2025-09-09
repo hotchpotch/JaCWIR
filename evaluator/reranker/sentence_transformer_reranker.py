@@ -12,6 +12,7 @@ class SentenceTransformerReranker(BaseReranker):
         query_prefix: str = "",
         document_prefix: str = "",
         use_fp16=True,
+        use_bf16=False,
         normalize_embeddings=True,
         max_seq_length=512,
     ):
@@ -19,8 +20,11 @@ class SentenceTransformerReranker(BaseReranker):
         self.model = SentenceTransformer(
             model_name, device=device, trust_remote_code=True
         )
-        if use_fp16 and "cuda" in device:
-            self.model.half()
+        if "cuda" in device:
+            if use_bf16:
+                self.model.to(torch.bfloat16)
+            elif use_fp16:
+                self.model.half()
 
         self.query_prefix = query_prefix
         self.document_prefix = document_prefix
